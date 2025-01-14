@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+title: CamPype: an open-source workflow for automated bacterial whole-genome sequencing analysis focused on Campylobacter
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - given-names: Irene
+    family-names: Ortega-Sanz
+    orcid: 'https://orcid.org/0000-0002-5211-1699'
+  - given-names: José Antonio
+    family-names: Barbero-Aparicio
+    orcid: 'https://orcid.org/0000-0002-3269-0806'
+  - given-names: Antonio
+    family-names: Canepa-Oneto
+    orcid: 'https://orcid.org/0000-0002-0608-2743'
+  - given-names: Jordi
+    family-names: Rovira
+    orcid: 'https://orcid.org/0000-0001-6664-9484'
+  - given-names: Beatriz
+    family-names: Melero
+    orcid: 'https://orcid.org/0000-0001-8982-8186'
+identifiers:
+  - type: doi
+    value: 10.1186/s12859-023-05414-w
+repository-code: 'https://github.com/JoseBarbero/CamPype'
+abstract: >-
+  Background
+
+  The rapid expansion of Whole-Genome Sequencing has
+  revolutionized the fields of clinical and food
+  microbiology. However, its implementation as a routine
+  laboratory technique remains challenging due to the growth
+  of data at a faster rate than can be effectively analyzed
+  and critical gaps in bioinformatics knowledge.
+
+
+  Results
+
+  To address both issues, CamPype was developed as a new
+  bioinformatics workflow for the genomics analysis of
+  sequencing data of bacteria, especially Campylobacter,
+  which is the main cause of gastroenteritis worldwide
+  making a negative impact on the economy of the public
+  health systems. CamPype allows fully customization of
+  stages to run and tools to use, including read quality
+  control filtering, read contamination, reads extension and
+  assembly, bacterial typing, genome annotation, searching
+  for antibiotic resistance genes, virulence genes and
+  plasmids, pangenome construction and identification of
+  nucleotide variants. All results are processed and resumed
+  in an interactive HTML report for best data visualization
+  and interpretation.
+
+
+  Conclusions
+
+  The minimal user intervention of CamPype makes of this
+  workflow an attractive resource for microbiology
+  laboratories with no expertise in bioinformatics as a
+  first line method for bacterial typing and epidemiological
+  analyses, that would help to reduce the costs of disease
+  outbreaks, or for comparative genomic analyses. CamPype is
+  publicly available at
+  https://github.com/JoseBarbero/CamPype.
+keywords:
+  - Pipeline
+  - Comparative genomics
+  - Genome analysis
+  - Bacterial typing
+  - Genome annotation
+  - Virulence genes
+  - Antimicrobial resistance genes
+license: GPL-3.0
